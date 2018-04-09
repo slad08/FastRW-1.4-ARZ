@@ -1034,7 +1034,7 @@ namespace FastRW
                             TwoIntToFloat(Params1[66], Params1[67]) + "','" +
                             idMax + "')";
 
-                //MessageBox.Show(conn);
+                MessageBox.Show(conn);
                 //MessageBox.Show("readParams");
                 //MessageBox.Show("readParams1");
                                        
