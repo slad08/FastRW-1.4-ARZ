@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="timerStart.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="notifyIcon1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>123, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="notifyIcon1.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAPisAAAEAIAAoKwAAFgAAACgAAAA+AAAAVgAAAAEAIAAAAAAAqCkAAMMOAADDDgAAAAAAAAAA
+        AADf3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v+rq6z/1tbY/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/ysrM/4iI
+        iP+lpab/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/97e
+        4f+Xl5f/iIiI/4iIiP/Hx8r/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/t7e5/4iIiP+IiIj/iIiI/5WVlv/d3eD/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9bW2P+MjIz/iIiI/4iIiP+IiIj/iIiI/7a2uP/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/pqan/4iIiP+IiIj/iIiI/4iIiP+IiIj/i4uL/9TU1//f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/8jIy/+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/pKSl/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/d3eD/lpaW/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iI
+        iP+IiIj/xsbJ/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/7a2uP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iI
+        iP+IiIj/iIiI/4iIiP+UlJX/3d3g/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/V1dj/i4uM/4iIiP+IiIj/iIiI/4iI
+        iP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+0tLb/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/7S0tv+IiIj/iIiI/4iI
+        iP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4uLi//U1Nb/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/2Njb/46O
+        jv+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/6Kio//f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/vLy9/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/8XF
+        yP/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/e3uH/mZma/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iI
+        iP+IiIj/k5OU/9zc3//f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/NzdD/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iI
+        iP+IiIj/iIiI/4iIiP+IiIj/s7O0/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v+rq6z/iIiI/4iIiP+IiIj/iIiI/4iI
+        iP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+Kior/09PW/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9nZ3P+Pj4//iIiI/4iI
+        iP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+hoaL/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/76+
+        v/+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP/Dw8X/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/5ubnP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/5KS
+        k//c3N7/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/z8/R/4mJif+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iI
+        iP+IiIj/iIiI/7Kys//f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/ra2u/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iI
+        iP+IiIj/iIiI/4iIiP+IiIj/ioqK/9LS1f/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/a2t3/kJCQ/4iIiP+IiIj/iIiI/4iI
+        iP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/oKCh/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/AwML/iIiI/4iI
+        iP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/xsbJ/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v+dnZ7/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+YmJn/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9HR0/+JiYn/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iI
+        iP/Fxcf/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/66ur/+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iI
+        iP+IiIj/iIiI/5ycnf/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/19fa/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iI
+        iP+IiIj/iIiI/4iIiP+IiIj/iIiI/8/P0f/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/i4uM/4iIiP+IiIj/iIiI/4iI
+        iP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/r6+w/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/8vLzv+IiIj/iIiI/4iI
+        iP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+Wlpf/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/V1dj/lpaW/4iI
+        iP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v+5ubv/s7O1/7Oztf+zs7X/s7O1/7Oz
+        tf+zs7X/s7O1/7Oztf+zs7X/s7O1/7Oztf+zs7X/s7O1/7Oztf+zs7X/s7O1/7KytP+urq//pqan/4yM
+        jP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/9vb
+        3f/f3+L/39/i/9/f4v/f3+L/1tbZ/7Oztf+zs7X/s7O1/7Oztf+zs7X/s7O1/8HBw//f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/xMTG/4iIiP+IiIj/iIiI/4iI
+        iP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iI
+        iP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iI
+        iP+IiIj/3d3g/9/f4v/f3+L/39/i/9/f4v/c3N//ioqK/4iIiP+IiIj/iIiI/4iIiP+IiIj/ioqK/9HR
+        0//f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9zc3v+SkpP/iIiI/4iI
+        iP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iI
+        iP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iI
+        iP+IiIj/iIiI/4+Pj//f3+L/39/i/9/f4v/f3+L/39/i/9/f4v+VlZb/iIiI/4iIiP+IiIj/iIiI/4iI
+        iP+IiIj/nZ2e/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/srKz/4iI
+        iP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iI
+        iP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iI
+        iP+IiIj/iIiI/4iIiP+IiIj/oqKj/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/5eXmP+IiIj/iIiI/4iI
+        iP+IiIj/iIiI/4iIiP+IiIj/vr6//9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9LS
+        1f+Kior/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iI
+        iP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iI
+        iP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+/v8H/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/jY2N/4iI
+        iP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+Ojo7/2Njb/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/n5+g/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iI
+        iP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iI
+        iP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/kpKT/93d4P/f3+L/39/i/9/f4v/f3+L/39/i/8zM
+        z/+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+oqKn/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/8LCxP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iI
+        iP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iI
+        iP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP/Fxcf/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/qKiq/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP/IyMr/39/i/9/f
+        4v/f3+L/39/i/9/f4v/b297/kpKS/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iI
+        iP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iI
+        iP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/s7O0/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/83Nz/+JiYn/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/5WV
+        lf/d3eD/39/i/9/f4v/f3+L/39/i/7Cwsf+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iI
+        iP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iI
+        iP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iYmJ/7W1t//f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/T09b/k5OT/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iI
+        iP+IiIj/iIiI/7Oztf/f3+L/39/i/9/f4v/Q0NP/iYmJ/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iI
+        iP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iI
+        iP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/5iYmf/Ly83/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/x8fK/5GRkf+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iI
+        iP+IiIj/iIiI/4iIiP+IiIj/ioqK/9LS1P/f3+L/39/i/52dnv+IiIj/iIiI/4iIiP+IiIj/iIiI/4iI
+        iP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iI
+        iP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+Li4v/l5eY/6urrf/IyMr/39/i/9/f
+        4v/f3+L/39/i/9/f4v/Z2dz/w8PF/6Ghov+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iI
+        iP+IiIj/iIiI/4iIiP+IiIj/iIiI/4iIiP+IiIj/np6f/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f
+        4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/9/f4v/f3+L/39/i/wAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+</value>
+  </data>
+  <data name="MxComp.OcxState" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5BeEhvc3QrU3RhdGUBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAALwAAAAIB
+        AAAAAQAAAAAAAAAAAAAAABoAAAAACgAATwMAAE8DAAADAAIAAAAIAAIAAAAAAAs=
+</value>
+  </data>
+  <metadata name="Main_timer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>236, 17</value>
+  </metadata>
+  <metadata name="timerTime.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>349, 17</value>
+  </metadata>
+</root>

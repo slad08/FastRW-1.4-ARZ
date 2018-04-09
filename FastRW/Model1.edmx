@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="Хранилище SALEO_BDModel" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="Хранилище SALEO_BDModelContainer">
+          <EntitySet Name="arhiv" EntityType="Хранилище SALEO_BDModel.arhiv" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tab" EntityType="Хранилище SALEO_BDModel.Tab" store:Type="Tables" Schema="dbo" />
+        </EntityContainer>
+        <EntityType Name="arhiv">
+          <Key>
+            <PropertyRef Name="i" />
+          </Key>
+          <Property Name="id_prod1" Type="bigint" Nullable="false" />
+          <Property Name="id_prod2" Type="bigint" />
+          <Property Name="id_isp" Type="bigint" Nullable="false" />
+          <Property Name="nm_step" Type="smallint" Nullable="false" />
+          <Property Name="dat" Type="datetime" Nullable="false" />
+          <Property Name="p1" Type="real" />
+          <Property Name="p2" Type="real" />
+          <Property Name="p3" Type="real" />
+          <Property Name="p4" Type="real" />
+          <Property Name="p5" Type="real" />
+          <Property Name="p6" Type="real" />
+          <Property Name="p7" Type="real" />
+          <Property Name="p8" Type="real" />
+          <Property Name="p9" Type="real" />
+          <Property Name="p10" Type="real" />
+          <Property Name="p11" Type="real" />
+          <Property Name="p12" Type="real" />
+          <Property Name="p13" Type="real" />
+          <Property Name="p14" Type="real" />
+          <Property Name="p15" Type="real" />
+          <Property Name="p16" Type="real" />
+          <Property Name="p17" Type="real" />
+          <Property Name="p18" Type="real" />
+          <Property Name="p19" Type="real" />
+          <Property Name="id" Type="bigint" Nullable="false" />
+          <Property Name="per" Type="smallint" />
+          <Property Name="faza" Type="varchar" MaxLength="50" />
+          <Property Name="i" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="Tab">
+          <Key>
+            <PropertyRef Name="param5" />
+          </Key>
+          <Property Name="param1" Type="int" />
+          <Property Name="param2" Type="int" />
+          <Property Name="param3" Type="float" />
+          <Property Name="param4" Type="float" />
+          <Property Name="param5" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+        </EntityType>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="SALEO_BDModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="SALEO_BDEntities" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="arhiv" EntityType="SALEO_BDModel.arhiv" />
+          <EntitySet Name="Tab" EntityType="SALEO_BDModel.Tab" />
+        </EntityContainer>
+        <EntityType Name="arhiv">
+          <Key>
+            <PropertyRef Name="i" />
+          </Key>
+          <Property Name="id_prod1" Type="Int64" Nullable="false" />
+          <Property Name="id_prod2" Type="Int64" />
+          <Property Name="id_isp" Type="Int64" Nullable="false" />
+          <Property Name="nm_step" Type="Int16" Nullable="false" />
+          <Property Name="dat" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="p1" Type="Single" />
+          <Property Name="p2" Type="Single" />
+          <Property Name="p3" Type="Single" />
+          <Property Name="p4" Type="Single" />
+          <Property Name="p5" Type="Single" />
+          <Property Name="p6" Type="Single" />
+          <Property Name="p7" Type="Single" />
+          <Property Name="p8" Type="Single" />
+          <Property Name="p9" Type="Single" />
+          <Property Name="p10" Type="Single" />
+          <Property Name="p11" Type="Single" />
+          <Property Name="p12" Type="Single" />
+          <Property Name="p13" Type="Single" />
+          <Property Name="p14" Type="Single" />
+          <Property Name="p15" Type="Single" />
+          <Property Name="p16" Type="Single" />
+          <Property Name="p17" Type="Single" />
+          <Property Name="p18" Type="Single" />
+          <Property Name="p19" Type="Single" />
+          <Property Name="id" Type="Int64" Nullable="false" />
+          <Property Name="per" Type="Int16" />
+          <Property Name="faza" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="i" Type="Int64" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="Tab">
+          <Key>
+            <PropertyRef Name="param5" />
+          </Key>
+          <Property Type="Int32" Name="param1" />
+          <Property Type="Int32" Name="param2" />
+          <Property Type="Double" Name="param3" />
+          <Property Type="Double" Name="param4" />
+          <Property Type="Int32" Name="param5" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Хранилище SALEO_BDModelContainer" CdmEntityContainer="SALEO_BDEntities">
+          <EntitySetMapping Name="arhiv">
+            <EntityTypeMapping TypeName="SALEO_BDModel.arhiv">
+              <MappingFragment StoreEntitySet="arhiv">
+                <ScalarProperty Name="id_prod1" ColumnName="id_prod1" />
+                <ScalarProperty Name="id_prod2" ColumnName="id_prod2" />
+                <ScalarProperty Name="id_isp" ColumnName="id_isp" />
+                <ScalarProperty Name="nm_step" ColumnName="nm_step" />
+                <ScalarProperty Name="dat" ColumnName="dat" />
+                <ScalarProperty Name="p1" ColumnName="p1" />
+                <ScalarProperty Name="p2" ColumnName="p2" />
+                <ScalarProperty Name="p3" ColumnName="p3" />
+                <ScalarProperty Name="p4" ColumnName="p4" />
+                <ScalarProperty Name="p5" ColumnName="p5" />
+                <ScalarProperty Name="p6" ColumnName="p6" />
+                <ScalarProperty Name="p7" ColumnName="p7" />
+                <ScalarProperty Name="p8" ColumnName="p8" />
+                <ScalarProperty Name="p9" ColumnName="p9" />
+                <ScalarProperty Name="p10" ColumnName="p10" />
+                <ScalarProperty Name="p11" ColumnName="p11" />
+                <ScalarProperty Name="p12" ColumnName="p12" />
+                <ScalarProperty Name="p13" ColumnName="p13" />
+                <ScalarProperty Name="p14" ColumnName="p14" />
+                <ScalarProperty Name="p15" ColumnName="p15" />
+                <ScalarProperty Name="p16" ColumnName="p16" />
+                <ScalarProperty Name="p17" ColumnName="p17" />
+                <ScalarProperty Name="p18" ColumnName="p18" />
+                <ScalarProperty Name="p19" ColumnName="p19" />
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="per" ColumnName="per" />
+                <ScalarProperty Name="faza" ColumnName="faza" />
+                <ScalarProperty Name="i" ColumnName="i" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Tab">
+            <EntityTypeMapping TypeName="SALEO_BDModel.Tab">
+              <MappingFragment StoreEntitySet="Tab">
+                <ScalarProperty Name="param5" ColumnName="param5" />
+                <ScalarProperty Name="param4" ColumnName="param4" />
+                <ScalarProperty Name="param3" ColumnName="param3" />
+                <ScalarProperty Name="param2" ColumnName="param2" />
+                <ScalarProperty Name="param1" ColumnName="param1" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
