@@ -1035,8 +1035,8 @@ namespace FastRW
                             idMax + "')";
 
                 //MessageBox.Show(conn);
-                MessageBox.Show("readParams");
-                MessageBox.Show("readParams1");
+                //MessageBox.Show("readParams");
+                //MessageBox.Show("readParams1");
                                        
 
                 using (SqlConnection connection = new SqlConnection(connection_String))
