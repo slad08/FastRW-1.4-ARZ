@@ -954,7 +954,7 @@ namespace FastRW
                     {
                         idMax = "0";
                     }
-                      MessageBox.Show("Метод ReadParams test");
+                  //    MessageBox.Show("Метод ReadParams test");
                 }
             }
             catch (Exception ex)
